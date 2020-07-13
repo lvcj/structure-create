@@ -1,0 +1,23 @@
+.list-wrap{
+    position: absolute;
+    width: 100%;
+    top:40px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    z-index: 10;
+    overflow-y:auto;
+}
+.tuTablesShow{
+    margin-top: 50px;
+}
+
+.tuTablesShow .type-item .spec-wrap{
+    display:flex;
+}
+.tuTablesShow .type-item .spec-wrap .spec-item{
+    margin-left: 10px;
+}
+.tuTablesShow .type-item .spec-item-expanded{
+    display:initial;
+}
